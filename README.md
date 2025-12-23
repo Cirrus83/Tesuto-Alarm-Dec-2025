@@ -5,7 +5,9 @@
 - 安装 – `install.sh`；
 - 刷新 – `refresh.sh`；
 - 删除 – `uninstall.sh`；  
-> 注意：可能需要配合`chmod +x`使用。  
+> 注意：可能需要配合`chmod +x`使用。
+> 关于`install(with_dock_icon).sh`：其与`install.sh`的唯一区别是其`NSApplication.ActivationPolicy`设为`regular`，而非后者的`accessory`。
+> `install(with_dock_icon).sh`安装的程序会在Dock栏、⌘+⇥的切换栏中显示。其静默性不如`install.sh`安装的程序，但这是唯一能让关闭按钮在Touch Bar上显示的方法。
 
 你可能会疑惑：它能用来干什么？用什么语言写的？为什么看不到源代码？  
 第一个问题交给豆包回答。在这方面，它是好用的工具。  
