@@ -1,3 +1,4 @@
+# Tesuto-Alarm-Dec-2025 By Cirrus
 没想到下午上完课后，1个小时就彻底搞定了。  
 现在安装极其方便。只要你是macOS系统，安装了Xcode Command Line Tools，就可以在10秒内通过轻量级`bash`脚本安装。
 与程序相关的3个脚本：  
